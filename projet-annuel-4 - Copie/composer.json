@@ -1,0 +1,26 @@
+{
+  "name": "pa/fitnesslink",
+  "autoload": {
+    "psr-4": {
+      "pa\\fitnesslink\\": ["src/", "models/", "vendor/", "controllers/", "vendor/codename/parquet/src/", "vendor/codename/parquet/src/adapter/"]
+    }
+  },
+  "authors": [
+    {
+      "name": "Marina Robert",
+      "email": "marina.robert1508@gmail.com"
+    },
+    {
+      "name": "Anisse Alouach",
+      "email": "anisse.alouach@gmail.com"
+    },
+    {
+      "name": "Lucas Pierre",
+      "email": "Luc7pierre@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "aws/aws-sdk-php": "^3.316"
+  }
+}
